@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: black; 
+}
+
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("Home (14).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.btn {
+  position: absolute;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+.content {
+  bottom: 180px;
+  right: 62%;
+
+}
+
+.vocab {
+  bottom: 180px;
+  left : 62%;
+
+}
+
+
+.back-link {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.back-btn {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+}
