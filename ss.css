@@ -71,31 +71,4 @@ body {
 .back-btn:hover {
   transform: scale(1.05);
 }
-/* ===== MOBILE ===== */
-@media (max-width: 768px) {
 
-  body {
-    overflow: auto;
-  }
-
-  .btn {
-    width: 45vw;   /* ปรับตามจอ */
-  }
-
-  .content {
-    bottom: 120px;
-    left: 50%;
-    right: auto;
-    transform: translateX(-120%);
-  }
-
-  .vocab {
-    bottom: 120px;
-    left: 50%;
-    transform: translateX(20%);
-  }
-
-  .back-btn {
-    width: 140px;
-  }
-}
